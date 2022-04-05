@@ -32,4 +32,53 @@
     </a>
 
   </body>
+
+
+  <table>
+    <tr>
+      <th>INFO</th>
+      <th>CSE</th>
+      <th>MATH</th>
+    </tr>
+    <tr>
+      <td>INFO101</td>
+      <td>CSE142</td>
+      <td>MATH124</td>
+    </tr>
+    <tr>
+      <td>INFO200</td>
+      <td>CSE143</td>
+      <td>MATH125</td>
+    </tr>
+  </table>
+
+
+
+
+  <form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+  </form>
+
+  <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+  </canvas>
+
+  <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+    ctx.stroke();
+  </script>
+
+  <p>Here is a quote from WWF's website:</p>
+  <blockquote cite="http://www.worldwildlife.org/who/index.html">
+  For 50 years, WWF has been protecting the future of nature.
+  The world's leading conservation organization,
+  WWF works in 100 countries and is supported by
+  1.2 million members in the United States and
+  close to 5 million globally.
+  </blockquote>
 </html>
